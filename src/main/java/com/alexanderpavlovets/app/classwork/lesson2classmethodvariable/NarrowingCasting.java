@@ -1,4 +1,4 @@
-package com.alexanderpavlovets.app.class_works.lesson3_class_method_variable;
+package com.alexanderpavlovets.app.classwork.lesson2classmethodvariable;
 
 /**
  * Created by olpav on 02/02/2017.
