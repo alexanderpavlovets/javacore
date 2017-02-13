@@ -1,6 +1,6 @@
-package com.alexanderpavlovets.app.homework.utils.runners;
+package com.alexanderpavlovets.app.homework.lesson2utils.runners;
 
-import com.alexanderpavlovets.app.homework.utils.convertors.PrimitiveConvertor;
+import com.alexanderpavlovets.app.homework.lesson2utils.convertors.PrimitiveConvertor;
 
 /**
  * Created by olpav on 02/05/2017.
