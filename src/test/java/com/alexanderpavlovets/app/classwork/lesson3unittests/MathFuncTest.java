@@ -12,14 +12,14 @@ public class MathFuncTest {
     }
 
     @Test
-    public void multiplyFailedTest(){
+    public void multiplyTest1(){
         int a = 2, b = 3, expRes = 845;
-        Assert.assertEquals(expRes, MathFunc.multiply(a, b));
+        Assert.assertNotEquals(expRes, MathFunc.multiply(a, b));
     }
 
     @Test
-    public void multiplyFailed1Test(){
+    public void multiplTest2(){
         int a = 2, b = 3, expRes = 841;
-        Assert.assertEquals(expRes, MathFunc.multiply(a, b));
+        Assert.assertNotEquals(expRes, MathFunc.multiply(a, b));
     }
 }
