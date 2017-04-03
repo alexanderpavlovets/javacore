@@ -1,4 +1,4 @@
-package com.alexanderpavlovets.app.runners;
+package com.alexanderpavlovets.runners;
 
 import com.alexanderpavlovets.app.homework.lesson2utils.convertors.PrimitiveConvertor;
 import com.alexanderpavlovets.app.homework.lesson3unittests.*;
