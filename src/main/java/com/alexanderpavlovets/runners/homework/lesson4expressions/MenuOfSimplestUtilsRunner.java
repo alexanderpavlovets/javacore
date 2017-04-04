@@ -103,7 +103,6 @@ public class MenuOfSimplestUtilsRunner {
                     System.out.println("Please make a choice between 1 and 2");
                 }
             }
-            // Add more user-friendly string into Operators themselfs !!!
         }
     }
 }

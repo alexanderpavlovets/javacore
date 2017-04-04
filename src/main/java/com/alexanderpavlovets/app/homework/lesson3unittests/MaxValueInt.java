@@ -6,8 +6,17 @@ package com.alexanderpavlovets.app.homework.lesson3unittests;
  */
 public class MaxValueInt {
     public int getMaxOfTwoGiven(int a,int b){
-        int result = Math.max(a,b);
+        int result;
+        System.out.println("You first number is " + a);
+        System.out.println("Your second number is " + b);
+        if(a != b){
+            result = Math.max(a,b);
+            System.out.println("Your bigger number is " + result);
+        }
+        else{
+            System.out.println("Entered numbers are equal, you result equals to 1st entered number: " + a);
+            result = a;
+        }
         return result;
-        // when you have time - add here check if ==
     }
 }

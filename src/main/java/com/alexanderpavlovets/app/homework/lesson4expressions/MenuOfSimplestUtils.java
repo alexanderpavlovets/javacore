@@ -37,7 +37,7 @@ public class MenuOfSimplestUtils {
         return multiplication.multiply(a,b);
     }
 
-    public int divide(int a, int b){
+    public double divide(double a, double b){
         Division division = new Division();
         return division.divide(a,b);
     }
