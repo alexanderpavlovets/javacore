@@ -10,6 +10,9 @@ import java.util.Scanner;
 public class CircleArea {
     public static final double PI = 3.14;
 
+
+    // Continue from here !!! Rewrite this shit to be valuable 
+
     public static void calculate() {
         Scanner scanner = new Scanner(System.in);
 

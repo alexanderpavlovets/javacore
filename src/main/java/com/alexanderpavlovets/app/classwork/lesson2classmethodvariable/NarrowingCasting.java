@@ -4,11 +4,10 @@ package com.alexanderpavlovets.app.classwork.lesson2classmethodvariable;
  * Created by olpav on 02/02/2017.
  */
 public class NarrowingCasting {
-    int int1 = 0;
-    float float1 = 30000000001.14159f;
 
-    public void narrowing(){
-        int1 = (int) float1;
-        System.out.println(int1);
+    public int narrowCastingFloatToInt(float floatIn){
+        int resultInt = (int) floatIn;
+        System.out.println("Your entered float number is " + floatIn + " your narrow casted int number is " + resultInt);
+        return resultInt;
     }
 }

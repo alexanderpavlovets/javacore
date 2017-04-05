@@ -16,19 +16,22 @@ public class MathFuncTest {
 
     @Test
     public void multiplyTest(){
+        MathFunc mathFunc = new MathFunc();
         int a = 2, b = 3, expRes = 6;
-        Assert.assertEquals(expRes, MathFunc.multiply(a, b));
+        Assert.assertEquals(expRes, mathFunc.multiply(a, b));
     }
 
     @FileParameters(RESOURCES_PATH + "multiply_parameters.csv")
     @Test
     public void multiplyTest1(int a, int b, int expRes){
-        Assert.assertNotEquals(expRes, MathFunc.multiply(a, b));
+        MathFunc mathFunc = new MathFunc();
+        Assert.assertNotEquals(expRes, mathFunc.multiply(a, b));
     }
 
     @Test
     public void multiplTest2(){
+        MathFunc mathFunc = new MathFunc();
         int a = 2, b = 3, expRes = 841;
-        Assert.assertNotEquals(expRes, MathFunc.multiply(a, b));
+        Assert.assertNotEquals(expRes, mathFunc.multiply(a, b));
     }
 }

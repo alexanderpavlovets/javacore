@@ -5,6 +5,8 @@ import org.junit.Test;
 
 /**
  * Created by olpav on 04/03/2017.
+ * This test is for Lesson 3, where we were creating simplest Math operators and menu for them
+ * This is test for HomeWork package
  */
 public class MenuOfSimplestUtilsTest {
     MenuOfSimplestUtils menu = new MenuOfSimplestUtils();
@@ -66,11 +68,11 @@ public class MenuOfSimplestUtilsTest {
 
     @Test
     public void maxValueViaMenuWithEqualData(){
-        Assert.assertEquals(menu.maxValue(4,4), 4);
+        Assert.assertEquals(4, menu.maxValue(4,4));
     }
 
     @Test
     public void minValueViaMenuWithEqualData(){
-        Assert.assertEquals(menu.minValue(4,4), 4);
+        Assert.assertEquals(4, menu.minValue(4,4));
     }
 }
