@@ -1,4 +1,4 @@
-package com.alexanderpavlovets.app.classwork.lesson6loops;
+package com.alexanderpavlovets.runners.classwork.lesson6loopss;
 
 /**
  * Created by olpav on 03/23/2017.
