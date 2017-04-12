@@ -77,13 +77,13 @@ public class HomeWorkLesson3Test {
     public void divisionTest0(){
         int a = 200, b = 20;
         int expRes = 10;
-        Assert.assertEquals(expRes, division.divide(a,b));
+        Assert.assertEquals(expRes, division.divide(a,b), 0.01);
     }
     @Test
     public void divisionTest1(){
         int a = 9, b = 3;
         int expRes = 3;
-        Assert.assertEquals(expRes, division.divide(a,b));
+        Assert.assertEquals(expRes, division.divide(a,b), 0.01);
     }
     @Test
     public void divisionTest2(){

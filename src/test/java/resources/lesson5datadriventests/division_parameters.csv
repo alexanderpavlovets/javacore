@@ -1,0 +1,4 @@
+argumentA, argumentB, expectedResult
+300,150,2
+10,5,2
+600,3,200
