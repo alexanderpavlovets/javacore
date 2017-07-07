@@ -21,24 +21,45 @@ public class CircleAreaRunner {
                     "\n 3. To exit 'Circle radius' program");
 
             int userChoise = sc.nextInt();
-            if (userChoise == 1) {
-                System.out.println("Please enter radius of the circle, in order to calculate it's area");
-                double circleAreaEntered = sc.nextDouble();
-                circle.calculateAreaByGivenRadius(circleAreaEntered);
-            } else if (userChoise == 2) {
-                System.out.println("Please enter a radius of first circle");
-                double radius1 = sc.nextDouble();
-                System.out.println("Please enter a radius of second circle");
-                double radius2 = sc.nextDouble();
-                circle.getBiggerAreaFromTwoGivenRadiuses(radius1,radius2);
-            } else if (userChoise == 3){
-                System.out.println("It was a pleasure to work with you. Bye.");
-                isAlive = false;
-            } else {
-                System.out.println("You have entered value not in range from 1 to 3. " +
+
+            switch (userChoise){
+                case 1: System.out.println("Please enter radius of the circle, in order to calculate it's area");
+                        double circleAreaEntered = sc.nextDouble();
+                        circle.calculateAreaByGivenRadius(circleAreaEntered);
+                        break;
+                case 2: System.out.println("Please enter a radius of first circle");
+                        double radius1 = sc.nextDouble();
+                        System.out.println("Please enter a radius of second circle");
+                        double radius2 = sc.nextDouble();
+                        circle.getBiggerAreaFromTwoGivenRadiuses(radius1,radius2);
+                        break;
+                case 3: System.out.println("It was a pleasure to work with you. Bye.");
+                        isAlive = false;
+                        break;
+                default: System.out.println("You have entered value not in range from 1 to 3. " +
                         "\nand i won't write a program further for such nice people like you! Bye!");
-                isAlive = false;
+                        isAlive = false;
+                        break;
             }
+//            The old implementation, before switch/case
+//            if (userChoise == 1) {
+//                System.out.println("Please enter radius of the circle, in order to calculate it's area");
+//                double circleAreaEntered = sc.nextDouble();
+//                circle.calculateAreaByGivenRadius(circleAreaEntered);
+//            } else if (userChoise == 2) {
+//                System.out.println("Please enter a radius of first circle");
+//                double radius1 = sc.nextDouble();
+//                System.out.println("Please enter a radius of second circle");
+//                double radius2 = sc.nextDouble();
+//                circle.getBiggerAreaFromTwoGivenRadiuses(radius1,radius2);
+//            } else if (userChoise == 3){
+//                System.out.println("It was a pleasure to work with you. Bye.");
+//                isAlive = false;
+//            } else {
+//                System.out.println("You have entered value not in range from 1 to 3. " +
+//                        "\nand i won't write a program further for such nice people like you! Bye!");
+//                isAlive = false;
+//            }
         }
     }
 }

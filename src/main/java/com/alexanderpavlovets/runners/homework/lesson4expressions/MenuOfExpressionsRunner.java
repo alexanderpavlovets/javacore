@@ -23,35 +23,69 @@ public class MenuOfExpressionsRunner {
                     "\n 5. Exit");
 
             int userChoice = sc.nextInt();
-            if(userChoice == 1){
-                System.out.println("Welcome to circle are calculation" +
+
+            switch (userChoice){
+                case 1: System.out.println("Welcome to circle are calculation" +
                         "\n Please give a value of circle radius:");
-                double radius = sc.nextDouble();
-                menu.calculateCircleArea(radius);
-            } else if(userChoice == 2){
-                System.out.println("Welcome to bigger circle area finder" +
+                        double radius = sc.nextDouble();
+                        menu.calculateCircleArea(radius);
+                        break;
+                case 2: System.out.println("Welcome to bigger circle area finder" +
                         "\n radius 1:");
-                double r1 = sc.nextDouble();
-                System.out.println("radius 2:");
-                double r2 = sc.nextDouble();
-                menu.getBiggerCircleArea(r1,r2);
-            } else if (userChoice == 3 ) {
-                System.out.println("Please enter a number, in order to check if it is Odd or Even");
-                int enteredNumber = sc.nextInt();
-                menu.checkIfNumberIsOdd(enteredNumber);
-            } else if (userChoice == 4){
-                System.out.println("Please enter 3 numbers, that corresponds to your possible triangle sides:");
-                int side1 = sc.nextInt();
-                int side2 = sc.nextInt();
-                int side3 = sc.nextInt();
-                menu.checkIfThreeNumberCanFormTriangle(side1,side2,side3);
-            } else if (userChoice == 5){
-                System.out.println("Bye!");
-                isAlive = false;
-            } else {
-                System.out.println("You have entered value not in range 1-5. Bye!");
-                isAlive = false;
+                        double r1 = sc.nextDouble();
+                        System.out.println("radius 2:");
+                        double r2 = sc.nextDouble();
+                        menu.getBiggerCircleArea(r1,r2);
+                        break;
+                case 3: System.out.println("Please enter a number, in order to check if it is Odd or Even");
+                        int enteredNumber = sc.nextInt();
+                        menu.checkIfNumberIsOdd(enteredNumber);
+                        break;
+                case 4: System.out.println("Please enter 3 numbers, that corresponds to your possible triangle sides:");
+                        int side1 = sc.nextInt();
+                        int side2 = sc.nextInt();
+                        int side3 = sc.nextInt();
+                        menu.checkIfThreeNumberCanFormTriangle(side1,side2,side3);
+                        break;
+                case 5: System.out.println("Bye!");
+                        isAlive = false;
+                        break;
+                default: System.out.println("You have entered value not in range 1-5. Bye!");
+                        isAlive = false;
+
             }
+
+
+//            Old implementation, before switch/case refactor
+//            if(userChoice == 1){
+//                System.out.println("Welcome to circle are calculation" +
+//                        "\n Please give a value of circle radius:");
+//                double radius = sc.nextDouble();
+//                menu.calculateCircleArea(radius);
+//            } else if(userChoice == 2){
+//                System.out.println("Welcome to bigger circle area finder" +
+//                        "\n radius 1:");
+//                double r1 = sc.nextDouble();
+//                System.out.println("radius 2:");
+//                double r2 = sc.nextDouble();
+//                menu.getBiggerCircleArea(r1,r2);
+//            } else if (userChoice == 3 ) {
+//                System.out.println("Please enter a number, in order to check if it is Odd or Even");
+//                int enteredNumber = sc.nextInt();
+//                menu.checkIfNumberIsOdd(enteredNumber);
+//            } else if (userChoice == 4){
+//                System.out.println("Please enter 3 numbers, that corresponds to your possible triangle sides:");
+//                int side1 = sc.nextInt();
+//                int side2 = sc.nextInt();
+//                int side3 = sc.nextInt();
+//                menu.checkIfThreeNumberCanFormTriangle(side1,side2,side3);
+//            } else if (userChoice == 5){
+//                System.out.println("Bye!");
+//                isAlive = false;
+//            } else {
+//                System.out.println("You have entered value not in range 1-5. Bye!");
+//                isAlive = false;
+//            }
         }
 
     }
