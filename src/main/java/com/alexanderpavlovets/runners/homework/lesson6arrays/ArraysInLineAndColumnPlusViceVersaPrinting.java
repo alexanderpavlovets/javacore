@@ -4,7 +4,7 @@ package com.alexanderpavlovets.runners.homework.lesson6arrays;
  * Created by olpav on 07/03/2017.
  */
 public class ArraysInLineAndColumnPlusViceVersaPrinting {
-    public static void main(String[] args) {
+    public static void printHardcodedArrays() {
 
 //        TASK 1
         int[] array = new int[10];

@@ -6,7 +6,7 @@ import static com.alexanderpavlovets.runners.homework.lesson6arrays.GetRandomInt
  * Created by olpav on 07/06/2017.
  */
 public class RandomArray0_999 {
-    public static void main(String[] args) {
+    public static void printRandom0_999ArrayAndFinMaxMinInIt() {
 
         int[] myArray = new int[15];
 

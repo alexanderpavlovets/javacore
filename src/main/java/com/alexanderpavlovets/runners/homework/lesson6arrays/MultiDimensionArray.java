@@ -5,7 +5,7 @@ import static com.alexanderpavlovets.runners.homework.lesson6arrays.GetRandomInt
  * Created by olpav on 07/06/2017.
  */
 public class MultiDimensionArray {
-    public static void main(String[] args) {
+    public static void printTwoDimensionArray() {
         int[][] myArray = new int[8][5];
 
 //        this variable is used for switching on higher-ordered (8) array index

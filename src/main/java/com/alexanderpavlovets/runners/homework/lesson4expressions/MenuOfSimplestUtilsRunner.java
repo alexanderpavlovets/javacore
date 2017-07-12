@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Created by olpav on 04/03/2017.
  */
 public class MenuOfSimplestUtilsRunner {
-    public static void main(String[] args) {
+    public static void runSimpleUtils() {
         MenuOfSimplestUtils menu = new MenuOfSimplestUtils();
         boolean alive = true;
         // Main logic of Runner is here

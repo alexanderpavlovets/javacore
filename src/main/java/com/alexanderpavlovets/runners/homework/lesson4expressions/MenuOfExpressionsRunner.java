@@ -8,7 +8,7 @@ import java.util.Scanner;
  * Created by olpav on 04/05/2017.
  */
 public class MenuOfExpressionsRunner {
-    public static void main(String[] args) {
+    public static void runExpressions() {
         MenuOfExpressions menu = new MenuOfExpressions();
         boolean isAlive = true;
         Scanner sc = new Scanner(System.in);

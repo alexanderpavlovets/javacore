@@ -6,7 +6,7 @@ import com.alexanderpavlovets.app.homework.lesson2utils.convertors.PrimitiveConv
  * Created by olpav on 04/03/2017.
  */
 public class PrimitiveConvertorRunner {
-    public static void main(String[] args) {
+    public static void runPrimitiveConvertor() {
         PrimitiveConvertor convertor = new PrimitiveConvertor();
         convertor.floatToChar(80.0f);
 

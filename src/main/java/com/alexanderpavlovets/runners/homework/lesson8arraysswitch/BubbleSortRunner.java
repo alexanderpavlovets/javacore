@@ -11,7 +11,7 @@ import static com.alexanderpavlovets.runners.homework.lesson8arraysswitch.PrintI
  * Created by olpav on 07/07/2017.
  */
 public class BubbleSortRunner {
-    public static void main(String[] args) {
+    public static void runBubbleSortMenu() {
 
         Scanner sc = new Scanner(System.in);
         boolean alive = true;
